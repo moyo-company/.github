@@ -1,0 +1,32 @@
+name: 🚀 개선 사항
+description: 새로운 기능 또는 개선 사항을 제보합니다.
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    attributes:
+      label: 개요
+      description: 이 이슈에 대한 대략적인 내용을 설명해주세요.
+      placeholder: 전체 어플리케이션에 더 많은 테스트 케이스를 추가합니다.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 작업 내용
+      description: 이 이슈를 해결하기 위한 필요 작업 목록을 적어주세요.
+      value: |
+        - [ ] 공통 함수에 대한 단위 테스트 추가
+        - [ ] 노출된 엔드포인트에 대한 E2E 테스트 추가
+      render: markdown
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 추가 컨텍스트
+      description: |
+        이 이슈를 더 잘 설명할 수 있는 스크린샷, 로그, 기존 이슈 등을 첨부해주세요.
+        Tip: 이 영역에 이미지 또는 로그 파일을 드래그해 첨부할 수 있어요.
+    validations:
+      required: false
