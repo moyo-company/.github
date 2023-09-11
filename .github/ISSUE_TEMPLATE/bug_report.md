@@ -1,10 +1,9 @@
 ---
-name: bug_report
+name: 🐛 오류 제보
 about: 정상적으로 작동하지 않는 기능 제보
 title: ''
 labels: bug
 assignees: ''
-
 ---
 
 ## 현재 상황
