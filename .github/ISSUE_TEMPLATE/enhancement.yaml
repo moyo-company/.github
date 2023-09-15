@@ -15,10 +15,9 @@ body:
     attributes:
       label: 작업 내용
       description: 이 이슈를 해결하기 위한 필요 작업 목록을 적어주세요.
-      value: |
+      placeholder: |
         - [ ] 공통 함수에 대한 단위 테스트 추가
         - [ ] 노출된 엔드포인트에 대한 E2E 테스트 추가
-      render: markdown
     validations:
       required: false
 
